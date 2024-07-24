@@ -1,0 +1,30 @@
+/* responsive media query */
+@media screen and (max-width: 576px)
+ {.nav , .list{
+    flex-direction: column;
+    gap: 12px;
+    
+ }
+ .home{
+
+ }
+
+}
+
+
+/* medium device media query */
+@media screen and (min-width:576px) and (max-width: 992px){
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+    
