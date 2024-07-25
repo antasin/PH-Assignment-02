@@ -281,9 +281,6 @@ background: rgb(34, 34, 34);
   /* border:5px solid red; */
   border-radius: 16px;
   
- 
-
-  
 }
 .run-image{
   width: 366px;
@@ -296,23 +293,23 @@ background: rgb(34, 34, 34);
   margin-right: 30;
 
 }
+/* --------------------Training Exercise------------------ */
 .training-exercise-parent{
 border: 2px solid red;
 margin-top: 100px;
 margin: 0 auto;
 text-align: left;
-width: 1160px;
-grid-template-columns: repeat(3);
+width: 1060px;
 
-                                                                                                                                                                         
 
 }
-
 .training-exercise{
   width: 671px;
- margin-left: ;
+}
+.training-exercise-images{
+ display: grid;
+ grid-template-columns: repeat(3 , 1fr);
 
-  
 }
 .training-exercise h1{
   color: rgb(255, 255, 255);
@@ -325,6 +322,190 @@ height: 48px;
 color: rgba(255, 255, 255, 0.5);
 
 }
+.exercise1{
+  background-color: aqua;
+  opacity: 
+
+}
+
+.exercise-image-1{
+
+width: 100%;
+height: 218px;
+margin-left: -2px;
+filter: blur(1px);
+
+
+}
+.exercise2{
+
+}
+.exercise-image-2{
+  width: 539px;
+  height: 256px;
+  margin-left: -154px
+  margin-bottom: -40px;
+}
+.exercise3{
+
+}
+.exercise-image-3{
+  width: 288px;
+  height: 214px;
+  margin-left:-46px;
+}
+.exercise4{
+
+}
+.exercise-image-4{
+  width: 435px;
+  height: 250px;
+  margin-left:-1px;
+}
+.exercise5{
+
+}
+.exercise-image-5{
+  width: 398px;
+  height: 250px;
+  margin-left: -60px ;
+}
+.exercise6{
+
+}
+.exercise-image-6{
+  width: 316px;
+  height: 250px;
+  margin-left: -75px;
+} 
+.bmi-calculator-content{
+  width: 680px;
+  margin-top: 80px;
+  text-align:left;
+  margin: 0 auto;
+ 
+}
+.bmi-calculator-content h1{
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  text-align: left;
+
+}
+.bmi-calculator-content p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  /* text-align: left; */
+  margin-top: 14px;
+}
+
+.calculator-chart-parent{
+  background: rgb(34, 34, 34);
+  width: 1440px;
+  /* gap: 180px; */
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.calculator-chart{
+  margin-left: 189px;
+
+}
+.calculator-chart h1{
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 900;
+
+}
+.table{
+  /* background: rgb(207, 135, 2); */
+  border-collapse: collapse;
+  color: white;
+}
+.table td{
+  border: 2px solid rgba(190, 11, 11, 0.1);
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 200;
+
+}
+.table th{
+  border:2px solid rgba(190, 11, 11, 0.1);
+  padding: 5px 10px;
+  text-align: left;
+  font-size: 16px;
+}
+.chart-calculator{
+  
+margin-right: 189px;
+}
+.chart-calculator h1{
+  color: rgb(255, 255, 255);
+
+}
+.chart-calculator p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+.height
+{
+ border-radius: 8px;
+width: 290px;
+height: 35px;
+background: rgba(255, 255, 255, 0.1);
+font-size: 16px;
+font-weight: 400;
+margin: 8px;
+padding: 12px 20px 12px 20px;
+}
+.weight
+{
+  
+}
+.height-weight{
+  width: 645px;
+  height: 35px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.calculaor{
+  margin-top:34px ;
+}
+/* ------------------------------------------------ */
+
+
+/* .exercise1{
+width: 323px;
+height: 218px;
+margin-left: -2px;
+
+}
+.exercise2{
+  width: 539px;
+  height: 256px;
+  margin-left: -154px;
+  margin-bottom: -40px;
+}
+.exercise3{
+  width: 288px;
+  height: 214px;
+  margin-left:-46px;
+}
+.exercise4{
+  width: 435px;
+  height: 250px;
+  margin-left:-1px;
+}
+.exercise5{
+  width: 398px;
+  height: 250px;
+  margin-left: -60px ;
+}
+.exercise6{
+  width: 316px;
+  height: 250px;
+  margin-left: -75px;
+/*
 
 
 
