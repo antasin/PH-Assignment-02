@@ -49,7 +49,7 @@
 
   margin: 0 auto;
   height: 0 auto;
-  width: 1440px auto;
+  width: 1440px;
   border: 1px solid red;
 
   
@@ -149,18 +149,47 @@
    }
    
    .first-image-container{
+    border: 1px solid greenyellow;
     width: 349px;
     height: 580px;
     margin-left: 87px;
     margin-right: 214px;
+    display: block;
+    
    }
-   
+   .first-image{
+        /* margin-top: 80px; */
 
+   }
 
+   #first-image-block{
+    display: block;
+   }
 
-/* #free-workout-videos{
+   #free-workout-videos{
+     color: aliceblue;
+     background: rgba(255,255,255,0.1);
+     width: 193px;
+     height: 100px;
+     line-height:1px;
+     border-radius: 12px;
+     backdrop-filter: blur(2px);
+     margin-bottom: -00px;
+     margin-left: 200px;
+    }
+    #free-workout-videos h1{
+      font-size: 40px;  
+    }
 
-} */
+    #free-workout-videos p{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.65);
+    }
+
+    #free-workout{
+        padding: 10px 30px;
+    }
+
 
    /* .video-tutorial{
 
@@ -185,6 +214,7 @@
   .main-container{
    width: 0 auto;
    height: 0 auto;
+
 
   }
   .habits-parent{
@@ -212,8 +242,12 @@ align-items: center;
 
 
   }
+  .habit-images{
+  border-radius: 100%;
+  
+  }
   .habits-image{
-    border: 1px solid red;
+    /* border: 1px solid red; */
    justify-content: space-around;
    width: 1060px;
    margin: 0 auto;
@@ -221,7 +255,7 @@ align-items: center;
 
 .change-habit-container{
   text-align: center;
-
+  /* border: 1px solid orchid; */
 }
 
 .change-habit-container h1{
@@ -233,11 +267,8 @@ align-items: center;
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
 }
-.habit-images{
-  r
-  
-}
-/* --------------- */
+
+/* ------Run an Extra main easily--------- */
 
 .extra-run-container{
 /* border: 2px solid blueviolet; */
@@ -291,6 +322,7 @@ background: rgb(34, 34, 34);
   margin-bottom: 29;
   margin-left: 150px;
   margin-right: 30;
+  
 
 }
 /* --------------------Training Exercise------------------ */
@@ -306,11 +338,6 @@ width: 1060px;
 .training-exercise{
   width: 671px;
 }
-.training-exercise-images{
- display: grid;
- grid-template-columns: repeat(3 , 1fr);
-
-}
 .training-exercise h1{
   color: rgb(255, 255, 255);
   font-size: 48px;
@@ -322,62 +349,62 @@ height: 48px;
 color: rgba(255, 255, 255, 0.5);
 
 }
-.exercise1{
-  background-color: aqua;
-  opacity: 
+.training-exercise-images-grid{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
 
 }
 
-.exercise-image-1{
-
-width: 100%;
-height: 218px;
-margin-left: -2px;
-filter: blur(1px);
-
+.exercise1{
+  
+  width: 323px;
+  height: 218px;
+  
 
 }
 .exercise2{
+ border: 1px solid blueviolet;
+  width: 500px;
+  height: 218px;
+ margin-left: -150px;
+ 
+}
 
-}
-.exercise-image-2{
-  width: 539px;
-  height: 256px;
-  margin-left: -154px
-  margin-bottom: -40px;
-}
 .exercise3{
-
-}
-.exercise-image-3{
-  width: 288px;
-  height: 214px;
-  margin-left:-46px;
+  
+  width: 388px;
+  height: 218px;
+  margin-left: -50px;
 }
 .exercise4{
 
-}
-.exercise-image-4{
   width: 435px;
-  height: 250px;
-  margin-left:-1px;
+  height: 225px;
 }
 .exercise5{
-
-}
-.exercise-image-5{
-  width: 398px;
-  height: 250px;
-  margin-left: -60px ;
+  
+  width: 408px;
+  height: 219px;
 }
 .exercise6{
-
-}
-.exercise-image-6{
-  width: 316px;
+  
+  width: 376px;
   height: 250px;
-  margin-left: -75px;
-} 
+}
+.exercise-common-img{
+  width: 100%;
+  height: 100%;
+}
+.training-text-1356{
+  color: rgb(255, 32, 32);
+  margin-top: -100px;
+}
+.training-text-24{
+  color: aliceblue;
+  margin-top: -100px;
+}
+
+/* ----------------BMI calculator -----------------*/
 .bmi-calculator-content{
   width: 680px;
   margin-top: 80px;
@@ -399,18 +426,6 @@ filter: blur(1px);
   /* text-align: left; */
   margin-top: 14px;
 }
-
-.calculator-chart-parent{
-  background: rgb(34, 34, 34);
-  width: 1440px;
-  /* gap: 180px; */
-  margin: 0 auto;
-  justify-content: space-between;
-}
-.calculator-chart{
-  margin-left: 189px;
-
-}
 .calculator-chart h1{
   color: rgb(255, 255, 255);
   font-size: 28px;
@@ -427,6 +442,7 @@ filter: blur(1px);
   padding: 5px 10px;
   font-size: 14px;
   font-weight: 200;
+  color: rgba(255, 255, 255, 0.5);
 
 }
 .table th{
@@ -435,9 +451,23 @@ filter: blur(1px);
   text-align: left;
   font-size: 16px;
 }
-.chart-calculator{
-  
-margin-right: 189px;
+
+.calculator-chart-parent{
+  background: rgb(34, 34, 34);
+  width: 1440px;
+  height: 490px;
+  /* gap: 180px; */
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.calculator-chart{
+  margin-left: 189px;
+
+}
+
+
+.chart-calculator{  
+margin-right: 159px;
 }
 .chart-calculator h1{
   color: rgb(255, 255, 255);
@@ -447,30 +477,146 @@ margin-right: 189px;
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
 }
-.height
+.input-grid
 {
- border-radius: 8px;
-width: 290px;
-height: 35px;
-background: rgba(255, 255, 255, 0.1);
-font-size: 16px;
-font-weight: 400;
-margin: 8px;
-padding: 12px 20px 12px 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
 }
-.weight
+.common-input{
+ border-radius: 8px; 
+ height: 38px;
+ width: 282px;
+ font-size: 16px;
+ font-weight: 400;
+ padding: 12px 40px 12px 20px;
+ background: rgba(255, 255, 255, 0.1);
+}
+#activity-factor{
+ 
+}
+
+.calculator{
+  margin-top:34px ;
+  margin-left: 8px;
+  
+}
+/*------------ Meet our team---------- */
+.team-parent{
+text-align: center;
+
+}
+
+.team-headline h1{
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.team-headline p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+
+}
+.team-image-grid-container{
+/* border: 1px solid red; */
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+width: 1100px;
+height: 710px ;
+margin:0 auto;
+margin-top: 58px;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 18px;
+padding: 18px;
+/* gap: 20px; */
+
+}
+.trainer{
+  /* border: 1px solid orange; */
+  padding: 18px;
+ 
+}
+
+.team-images
+{
+ width: 100%;
+ height: 100%;
+ border-radius: 18px;
+ 
+
+}
+.text{
+  /* border: 5px solid red; */
+  text-align: left;
+  margin-top: -100px;
+  margin-left: 32px;
+  
+  
+
+}
+.text h3{
+  color: white;
+  font-size: 16px;
+  font-weight: 600px;
+}
+.text p{
+  color: rgb(196, 194, 192);
+  font-size: 14px;
+}
+
+.first-image .second-image .hird-image .four-image .five-image .six-image
 {
   
 }
-.height-weight{
-  width: 645px;
-  height: 35px;
-  border-radius: 8px;
+
+/* ------------------Footer Start---------------- */
+.footer{
+  height:495px ;
+  width: 1440px;
   background: rgba(255, 255, 255, 0.1);
+  margin: 0 auto;
+  margin-top: 95px;
 }
-.calculaor{
-  margin-top:34px ;
+.footer-section{
+  justify-content: center;
+  margin-bottom: 80px;
+  
 }
+.fitness-footer{
+  width: 445px;
+}
+
+.fitness-footer h1{
+  font-size: 70px;
+}
+.fitness-footer p{
+color: rgba(255,255,255,0.5);
+font-size: 14px;
+}
+.get-started{
+width: 200px;
+margin-left: 152px;
+}
+.get-started h1{
+font-size: 32px;
+color: rgba(255,255,255);
+}
+.get-started p{
+  color: rgba(255,255,255,0.5);
+}
+.horizontal{
+width: 1060px;
+margin-bottom: 36px;
+}
+.rights-reserved{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+ 
+}
+
+
 /* ------------------------------------------------ */
 
 

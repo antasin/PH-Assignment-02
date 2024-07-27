@@ -45,15 +45,16 @@
  <!-- header image part start..... -->
       <div class="first-image-container">
         
-          
-         
-            <!-- <button id="free-workout-videos"> 
-              <h1>500+</h1><br>
+           <div id="free-workout-videos">
+             <div id="free-workout">
+              <h1>500+</h1>
               <p>Free Workout Videos</p>
-            </button> -->
-            
-          
-               <img src="images/Images 2.png" alt="">
+            </div>
+           </div>
+           
+              <div id="first-image-block"> 
+                <img class="first-image" src="images/Images 2.png" alt="">
+              </div>
   
            
 <!-- 
@@ -124,66 +125,68 @@
    
      
   </section>
+  <!-- ------------ Training and exercise ----------- -->
 <section class="training-exercise-parent">
   <div class="training-exercise">
     <h1>Trainings and Exercises</h1>
     <p>Training is a method of exercising with a more specific purpose or end goal. Exercising as part of a training plan is much more strategic.</p>
   </div>
   
-  <div class="training-exercise-images">
+  <div class="training-exercise-images-grid">
 
     <div class="exercise1">
-      <img class="exercise-image-1" src="images/exercise1.jpg" alt="">
-      <div>
+      <img class="exercise-common-img" src="images/exercise1.jpg" alt="">
+      <div class="training-text-1356">
         <p>lorem</p>
       </div>
     </div>
 
 
     <div class="exercise2">
-      <img class="exercise-image-2" src="images/exercise2.png" alt="">
-      <div>
+      <img class="exercise-common-img" src="images/exercise2.png" alt="">
+      <div class="training-text-24">
         <p>lorem</p>
       </div>
     </div>
 
 
     <div class="exercise3">
-      <img class="exercise-image-3" src="images/exercise3.png" alt="">
-      <div>
+      <img class="exercise-common-img" src="images/exercise3.png" alt="">
+      <div class="training-text-1356">
         <p>lorem</p>
       </div>
     </div>
 
 
     <div class="exercise4">
-      <img class="exercise-image-4" src="images/exercise4.png" alt="">
-      <div>
+      <img class="exercise-common-img" src="images/exercise4.png" alt="">
+      <div class="training-text-24">
         <p>lorem</p>
       </div>
     </div>
 
 
    <div class="exercise5">
-    <img class="exercise-image-5" src="images/exercise5.jpg" alt="">
-    <div>
+    <img class="exercise-common-img" src="images/exercise5.jpg" alt="">
+    <div class="training-text-1356">
       <p>lorem</p>
     </div>
    </div>
 
 
     <div class="exercise6">
-      <img class="exercise-image-6" src="images/exercise6.jpg" alt="">
-      <div>
+      <img class="exercise-common-img" src="images/exercise6.jpg" alt="">
+      <div class="training-text-1356">
         <p>lorem</p>
       </div>
     </div>
+
   </div>
 </section>
 
 
 
-<!-- -----------------calculator chart start ---------------------->
+<!-- -----------------bmi calculator chart start ---------------------->
 
 
 
@@ -196,7 +199,7 @@
 
 <section class="calculator-chart-parent , display-flex">
 
-<div class="calculator-chart">
+  <div class="calculator-chart">
       <h1>BMI Calculator Chart</h1>
 
       <table class="table">
@@ -222,27 +225,128 @@
                <td>Obese</td>
              </tr>
        </table>
-</div>
+  </div>
 
 
-<div class="chart-calculator">
-  <h1>Calculate your BMI</h1>
-  <p>We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym. </p>
-  <input class="height" type="number" placeholder="Height/ cm">
-  <input class="height"type="number" placeholder="Weight/ kg"><br>
-  <input class="height , weight"type="text" placeholder="Age">
-  <input class="height , weight"type="text" placeholder="Sex"><br>
-  <input class="height , height-weight"type="number" placeholder="Select an activity factor"><br>
-  <button class="btn-primary  ">Calculate</button>
+  <div class="chart-calculator">
+      <h1>Calculate your BMI</h1>
+      <p>We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym. </p>
+   <div class="input-grid">
+    <input class="common-input"type="number" placeholder="Height/ cm">
+    <input class="common-input"type="number" placeholder="Weight/ kg">
+    <input class="common-input"type="text" placeholder="Age">
+    <input class="common-input"type="text" placeholder="Sex">
+    <input class="common-input" id="activity-factor" type="number" placeholder="Select an activity factor">
+   </div>
+      
 
-</div>
+      <button class="btn-primary calculator ">Calculate</button>
 
-
+  </div>
 </section>
+
+<!------------------- Meet our team------------------- -->
+
+<section class="team-parent">
+  <div class="team-headline">
+    <h1>Meet Our Team</h1>
+    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
+  </div>
+
+
+
+
+    <div class="team-image-grid-container">
+
+       
+        <div class="trainer">
+          <img class="team-images" src="images/trainer1.png" alt="">
+            <div class="text">
+               <h3>jerome Bell</h3>
+               <p>Trainer</p>
+            </div>
+        </div>       
+ 
+        <div class="trainer">
+          <img class="team-images" src="images/trainer2.png" alt="">
+            <div class="text">
+               <h3>Cameron Williamson</h3>
+               <p>Trainer</p>
+            </div>
+        </div>       
+      
+        <div class="trainer">
+          <img class="team-images" src="images/trainer3.png" alt="">
+            <div class="text">
+               <h3>Darrell Steward</h3>
+               <p>Trainer</p>
+            </div>
+        </div>       
+      
+        <div class="trainer">
+          <img class="team-images" src="images/trainer4.png" alt="">
+            <div class="text">
+               <h3>Dianne Russell</h3>
+               <p>Trainer</p>
+            </div>
+        </div>    
+
+        <div class="trainer">
+          <img class="team-images" src="images/trainer5.png" alt="">
+            <div class="text">
+               <h3>Cody Fisher</h3>
+               <p>Trainer</p>
+            </div>
+        </div>    
+        <div class="trainer">
+          <img class="team-images" src="images/trainer6.png" alt="">
+            <div class="text">
+               <h3>Theresa Webb</h3>
+               <p>Trainer</p>
+            </div>
+        </div>    
+      
+             
+    </div>
+</section>
+</main>
+<!--------------------- footer start------------------->
+  
+  <footer class="footer ">
+    <section class="footer-section display-flex">
+
+
+       <div class="fitness-footer">
+        <h1 class="fitness"><i>Fitness</i></h1>
+        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+       </div>
+
+       <div class="get-started">
+        <h1>Get Started</h1>
+        <p>Service</p>
+        <p>Contact Us</p>
+        <p>Affiliate Program</p>
+        <p>About Us</p>
+       </div>
+
+       <div class="get-started">
+        <h1>Get started</h1>
+        <p>Fitness</p>
+        <p>Platform</p>
+        <p>Workout Library</p>
+        <p>App Design</p>
+       </div>
+
+    </section>
+    <hr class="horizontal">
+    <div class="rights-reserved">
+      <p>All right reserved @Fitness 2024</p>
+    </div>
+  
+
  
 
-</main>
-  
-  
+     
+  </footer>
 </body>
 </html>
