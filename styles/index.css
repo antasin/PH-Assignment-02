@@ -154,7 +154,7 @@
     height: 580px;
     margin-left: 87px;
     margin-right: 214px;
-    display: block;
+    position: relative;
     
    }
    .first-image{
@@ -163,53 +163,84 @@
    }
 
    #first-image-block{
-    display: block;
+   
    }
 
    #free-workout-videos{
-     color: aliceblue;
-     background: rgba(255,255,255,0.1);
-     width: 193px;
-     height: 100px;
-     line-height:1px;
-     border-radius: 12px;
-     backdrop-filter: blur(2px);
-     margin-bottom: -00px;
-     margin-left: 200px;
+    background: rgba(255, 255, 255, 0.1);
+    height: 98px;
+    width: 190px;
+    position: absolute;
+    left: 228px;
+    bottom: 349px;
+    border-radius: 18px;
+   
     }
-    #free-workout-videos h1{
-      font-size: 40px;  
+    #free-workout{
+      padding: 10px 30px;    
+      line-height: 1px;
+      width: 100%;
     }
 
-    #free-workout-videos p{
+    #free-workout h1{
+      font-size: 40px;  
+      color: aliceblue;
+    }
+
+    #free-workout p{
     font-size: 13px;
     color: rgba(255, 255, 255, 0.65);
     }
 
-    #free-workout{
-        padding: 10px 30px;
-    }
+   
 
 
-   /* .video-tutorial{
-
-
-    border-radius: 15px;
-    height: 100px;
-    width: 200px;
+   #video-tutorial-videos{
+   background: rgba(255, 255, 255, 0.1);
+   position: absolute;
+   left: -94px;
+   top: 415px;
+   width: 190px;
+   height:96px ;
+   border-radius: 18px;
+   }
+   #video-tutorial{
+      line-height:10px;
+      text-align: right;
+      padding-right: 15px;
+      filter: blur(2px);
+     
+   }
+   #video-tutorial h1{
+    font-size: 24px;  
     color: aliceblue;
-    background-color: rgba(173, 171, 171, 0.062);
-    margin-left: -500px;
-    margin-top: -200px;
+    margin-right: 40px;
+    
+   }
+   #video-tutorial p{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.65);
+    margin-right: 2px;
+   }
+   .circle{
+    margin-top: 28px;
+    margin-left: 15px;
+    
+    
+   }
+   #circle{
+    position: absolute;
+    width: 45px;
    
-   
-   } */
+    
+   }
+
+
 
 
    
    
-   /* ------------------------------------------- */
-   /* Starting of Main */
+   /* ---------------------Starting of Main---------------------- */
 
   .main-container{
    width: 0 auto;
