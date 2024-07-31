@@ -1,320 +1,273 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap");
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
-.background-colour{
-  background: rgba(0, 0, 0, 0.932)
+.playwrite-be-vlg-uniquifier {
+  font-family: "Playwrite BE VLG", cursive;
+  font-size: 90px;
+  font-weight: 400;
+  font-style: normal;
 }
 
+.background-colour {
+  background: rgba(0, 0, 0, 0.932);
+}
 
-.fitness{
-  font-weight:800;
+.fitness {
+  font-weight: 800;
   font-style: normal;
   font-size: 50px;
-  color: rgb(255, 72, 43);  
+  color: rgb(255, 72, 43);
 }
 /* --------------------------------------------------
 ----------------------------------------------------- */
-  /* Shared Styles Start */
-  .display-flex{
-    display: flex;
-   }
+/* Shared Styles Start */
+.display-flex {
+  display: flex;
+}
 
-   .btn-primary{
-    width: 224px;
-    height: 54px;
-    padding: 16px 40px 16px 40px;
-    border-radius: 42px;
-    background: rgb(230, 83, 60);
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    color: rgb(255, 255, 255);
-   }
-   .download-app{
-    border: 1px solid rgb(255, 255, 255);
-    background: url(88);
-    border: 1px solid rgb(255, 255, 255);
-    
-   }
-   
- 
-   /* Shared Styles End */
- 
-.header-container{
+.btn-primary {
+  width: 224px;
+  height: 54px;
+  padding: 16px 40px 16px 40px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: rgb(255, 255, 255);
+}
+.download-app {
+  border: 1px solid rgb(255, 255, 255);
+  background: url(88);
+  border: 1px solid rgb(255, 255, 255);
+}
 
+/* Shared Styles End */
+
+.header-container {
   margin: 0 auto;
   height: 0 auto;
-  width: 1440px;
+  max-width: 1440px;
   border: 1px solid red;
-
-  
-
 }
-.fitness{
-  color:rgb(230, 83, 60);
+.fitness {
+  color: rgb(230, 83, 60);
   height: 44px;
   font-size: 36px;
   font-weight: 800;
-
-
-
 }
-.home{
+.home {
   /* border: 1px solid red; */
-  height:35px;
+  height: 34px;
   width: 90px;
   align-content: center;
   align-items: center;
   border-radius: 46px;
   color: whitesmoke;
   background-color: rgb(230, 83, 0);
-
-
 }
 
-
-
-  .navbar
-  {
-   justify-content: space-around;
-   align-items: center;
-  
-   
-  }
-  .nav-links{
-    border: 1px solid rgba(255, 27, 27, 0.1);
-    /* color: aliceblue; */
-    height: 25px;
-    width: 450px;
-    font-weight: 400;
-    padding: 8px;
-    text-align:center;
-    border-radius: 50px;
-    list-style: none;
-    gap: 48px;
-    font-size: 22px; 
-    align-content: center;
-    align-items: center;
-
-  }
-.nav-item{
+.navbar {
+  justify-content: space-around;
+  align-items: center;
+  width: 0 auto;
+}
+.nav-links {
+  border: 1px solid rgb(117, 0, 0);
+  height: 30px;
+  width: 460px;
+  font-weight: 400;
+  padding: 8px;
+  text-align: center;
+  border-radius: 50px;
+  list-style: none;
+  gap: 48px;
+  font-size: 22px;
+  align-content: center;
+  align-items: center;
+}
+.ham-burger-menu {
+  color: aqua;
+  display: none;
+}
+.nav-item {
   text-align: center;
   align-items: center;
   color: azure;
 }
-.nav-link{
+.nav-link {
   text-decoration: none;
   color: white;
+}
+/* -------------------starting first part of section ----------------------*/
 
+.section-container {
+  border: 2px solid rgb(207, 8, 191);
+  justify-content: space-around;
+  width: 1440px;
+}
+.headline-content {
+  color: rgb(255, 255, 255);
+  font-size: 78px;
 }
 
-  
-  .section-container{
-    border: 2px solid rgb(207, 8, 191);
-    justify-content: space-around;
-  
-  }
-   .headline-content{
-    color: rgb(255, 255, 255);
-    font-size: 78px;
+.body-shape-content {
+  width: 550px;
+  border: 3px solid rgb(70, 83, 255);
+  font-size: 40px;
+  text-align: left;
+}
 
-  
-   }
-   .shape{
-    
-   }
-  
-  .body-shape-content{
-   width:550px ;
-    border: 3px solid rgb(70, 83, 255);
-    font-size: 40px;
-    text-align: left;
-  
-  
-  }
-  
-   .headline-paragraph{
-    /* height: 48px; */
-    margin: 28px 0px;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    color: rgba(255, 255, 255, 0.5);
+.headline-paragraph {
+  margin: 28px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.5);
+}
 
-   }
-   
-   .first-image-container{
-    border: 1px solid greenyellow;
-    width: 349px;
-    height: 580px;
-    margin-left: 87px;
-    margin-right: 214px;
-    position: relative;
-    
-   }
-   .first-image{
-        /* margin-top: 80px; */
+.first-image-container {
+  border: 1px solid greenyellow;
+  margin-left: 87px;
+  margin-right: 214px;
+  position: relative;
+}
+.first-image {
+  width: 100%;
+  height: 100%;
+}
 
-   }
+#first-image-block {
+  width: 400px;
+  height: 650px;
+  border: 1px solid red;
+}
 
-   #first-image-block{
-   
-   }
+#free-workout-videos {
+  background: rgba(255, 255, 255, 0.1);
+  height: 98px;
+  width: 190px;
+  position: absolute;
+  left: 277px;
+  bottom: 383px;
+  border-radius: 18px;
+  backdrop-filter: blur(8px);
+}
+#free-workout {
+  padding: 20px 30px;
+  line-height: 1px;
+  width: 100%;
+}
 
-   #free-workout-videos{
-    background: rgba(255, 255, 255, 0.1);
-    height: 98px;
-    width: 190px;
-    position: absolute;
-    left: 228px;
-    bottom: 349px;
-    border-radius: 18px;
-   
-    }
-    #free-workout{
-      padding: 10px 30px;    
-      line-height: 1px;
-      width: 100%;
-    }
+#free-workout h1 {
+  font-size: 40px auto;
+  color: aliceblue;
+}
 
-    #free-workout h1{
-      font-size: 40px;  
-      color: aliceblue;
-    }
+#free-workout p {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.65);
+}
 
-    #free-workout p{
-    font-size: 13px;
-    color: rgba(255, 255, 255, 0.65);
-    }
+#video-tutorial-videos {
+  background: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  left: -94px;
+  top: 415px;
+  width: 190px;
+  height: 96px;
+  border-radius: 18px;
+  backdrop-filter: blur(8px);
+}
+#video-tutorial {
+  line-height: 10px;
+  text-align: right;
+  padding-right: 15px;
+}
+#video-tutorial h1 {
+  font-size: 24px;
+  color: aliceblue;
+  margin-right: 40px;
+}
+#video-tutorial p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.65);
+  margin-right: 2px;
+}
+.circle {
+  margin-top: 28px;
+  margin-left: 15px;
+}
+#circle {
+  position: absolute;
+  width: 45px;
+}
 
-   
+/* ---------------------Starting of Main---------------------- */
+/* ----------Change your habit--------*/
+.main-container {
+  width: 0 auto;
+  height: 0 auto;
+}
+.habits-parent {
+  align-items: center;
+}
 
-
-   #video-tutorial-videos{
-   background: rgba(255, 255, 255, 0.1);
-   position: absolute;
-   left: -94px;
-   top: 415px;
-   width: 190px;
-   height:96px ;
-   border-radius: 18px;
-   }
-   #video-tutorial{
-      line-height:10px;
-      text-align: right;
-      padding-right: 15px;
-      filter: blur(2px);
-     
-   }
-   #video-tutorial h1{
-    font-size: 24px;  
-    color: aliceblue;
-    margin-right: 40px;
-    
-   }
-   #video-tutorial p{
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.65);
-    margin-right: 2px;
-   }
-   .circle{
-    margin-top: 28px;
-    margin-left: 15px;
-    
-    
-   }
-   #circle{
-    position: absolute;
-    width: 45px;
-   
-    
-   }
-
-
-
-
-   
-   
-   /* ---------------------Starting of Main---------------------- */
-
-  .main-container{
-   width: 0 auto;
-   height: 0 auto;
-
-
-  }
-  .habits-parent{
-align-items: center;
-  }
-
-  .habits-parent-content{
-    text-align: center;
-
-
-  }
-  .habits-parent-content h1{
-   
-    height: 58px;
-    margin: 14px 0px;
-    color: rgb(255, 255, 255);
-    font-size: 48px;
-    font-weight: 900;
-    
-
-  }
-  .habits-parent-content p{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
-
-
-  }
-  .habit-images{
+.habits-parent-content {
+  text-align: center;
+}
+.habits-parent-content h1 {
+  height: 58px;
+  margin: 14px 0px;
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+}
+.habits-parent-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+.habit-images {
   border-radius: 100%;
-  
-  }
-  .habits-image{
-    /* border: 1px solid red; */
-   justify-content: space-around;
-   width: 1060px;
-   margin: 0 auto;
-  }
+}
+.habits-image {
+  border: 1px solid red;
+  justify-content: space-around;
+  width: 1060px;
+  margin: 0 auto;
+}
 
-.change-habit-container{
+.change-habit-container {
   text-align: center;
   /* border: 1px solid orchid; */
 }
 
-.change-habit-container h1{
+.change-habit-container h1 {
   color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 600;
 }
-.change-habit-container p{
+.change-habit-container p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
 }
 
 /* ------Run an Extra main easily--------- */
 
-.extra-run-container{
-/* border: 2px solid blueviolet; */
-width: 1060px;
-margin: 0 auto;
-height: 371px;
-border-radius: 18px;
-background: rgb(34, 34, 34);
-
+.extra-run-container {
+  /* border: 2px solid rgb(253, 36, 36); */
+  width: 1060px;
+  margin: 0 auto;
+  height: 371px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
 }
-
-
-
-
-.extra-run-container h1{
+.extra-run-container h1 {
   color: rgb(255, 255, 255);
   font-size: 48px;
   font-weight: 900;
@@ -322,7 +275,7 @@ background: rgb(34, 34, 34);
   margin-top: 41px;
 }
 
-.extra-run-container p{
+.extra-run-container p {
   width: 443px;
   height: 72px;
   padding: 0px;
@@ -334,17 +287,14 @@ background: rgb(34, 34, 34);
   color: rgba(255, 255, 255, 0.5);
 }
 
-
-.join-now{
+.join-now {
   margin-left: 54px;
-  
 }
-.run{
+.run {
   /* border:5px solid red; */
   border-radius: 16px;
-  
 }
-.run-image{
+.run-image {
   width: 366px;
   height: 312px;
   padding: 0px;
@@ -353,137 +303,106 @@ background: rgb(34, 34, 34);
   margin-bottom: 29;
   margin-left: 150px;
   margin-right: 30;
-  
-
 }
-/* --------------------Training Exercise------------------ */
-.training-exercise-parent{
-border: 2px solid red;
-margin-top: 100px;
-margin: 0 auto;
-text-align: left;
-width: 1060px;
-
-
+/* --------------------Training and Exercise------------------ */
+.training-exercise-parent {
+  border: 2px solid red;
+  margin-top: 100px;
+  margin: 0 auto;
+  text-align: left;
+  width: 1060px;
 }
-.training-exercise{
+.training-exercise {
   width: 671px;
 }
-.training-exercise h1{
+.training-exercise h1 {
   color: rgb(255, 255, 255);
   font-size: 48px;
   font-weight: 900;
 }
-.training-exercise p{
-width: 671px;
-height: 48px;
-color: rgba(255, 255, 255, 0.5);
-
+.training-exercise p {
+  width: 671px;
+  height: 48px;
+  color: rgba(255, 255, 255, 0.5);
 }
-.training-exercise-images-grid{
- display: grid;
- grid-template-columns: repeat(3, 1fr);
-
+.training-exercise-images-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.exercise1{
-  
-  width: 323px;
+.exercise1 {
+  background-color: rgb(32, 255, 144, 0.5);
+  width: 100%;
   height: 218px;
-  
-
 }
-.exercise2{
- border: 1px solid blueviolet;
+.overlay {
+}
+.exercise2 {
+  border: 1px solid blueviolet;
   width: 500px;
   height: 218px;
- margin-left: -150px;
- 
+  margin-left: -150px;
 }
 
-.exercise3{
-  
+.exercise3 {
   width: 388px;
   height: 218px;
   margin-left: -50px;
 }
-.exercise4{
-
+.exercise4 {
   width: 435px;
   height: 225px;
 }
-.exercise5{
-  
+.exercise5 {
   width: 408px;
   height: 219px;
 }
-.exercise6{
-  
+.exercise6 {
   width: 376px;
   height: 250px;
 }
-.exercise-common-img{
+.exercise-common-img {
   width: 100%;
   height: 100%;
 }
-.training-text-1356{
+.training-text-1356 {
   color: rgb(255, 32, 32);
   margin-top: -100px;
 }
-.training-text-24{
+.training-text-24 {
   color: aliceblue;
   margin-top: -100px;
 }
 
-/* ----------------BMI calculator -----------------*/
-.bmi-calculator-content{
+/* ----------------BMI calculator Chart-----------------*/
+.bmi-calculator-content {
   width: 680px;
   margin-top: 80px;
-  text-align:left;
+  text-align: left;
   margin: 0 auto;
- 
 }
-.bmi-calculator-content h1{
+.bmi-calculator-content h1 {
   font-size: 48px;
   font-weight: 900;
   color: rgb(255, 255, 255);
   text-align: left;
-
 }
-.bmi-calculator-content p{
+.bmi-calculator-content p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
   letter-spacing: 0.3px;
   /* text-align: left; */
   margin-top: 14px;
 }
-.calculator-chart h1{
+.calculator-chart {
+  margin-left: 189px;
+}
+.calculator-chart h1 {
   color: rgb(255, 255, 255);
   font-size: 28px;
   font-weight: 900;
-
 }
-.table{
-  /* background: rgb(207, 135, 2); */
-  border-collapse: collapse;
-  color: white;
-}
-.table td{
-  border: 2px solid rgba(190, 11, 11, 0.1);
-  padding: 5px 10px;
-  font-size: 14px;
-  font-weight: 200;
-  color: rgba(255, 255, 255, 0.5);
-
-}
-.table th{
-  border:2px solid rgba(190, 11, 11, 0.1);
-  padding: 5px 10px;
-  text-align: left;
-  font-size: 16px;
-}
-
-.calculator-chart-parent{
+.calculator-chart-parent {
   background: rgb(34, 34, 34);
   width: 1440px;
   height: 490px;
@@ -491,206 +410,167 @@ color: rgba(255, 255, 255, 0.5);
   margin: 0 auto;
   justify-content: space-between;
 }
-.calculator-chart{
-  margin-left: 189px;
 
+.table {
+  /* background: rgb(207, 135, 2); */
+  border-collapse: collapse;
+  color: white;
+}
+.table td {
+  border: 2px solid rgba(190, 11, 11, 0.1);
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.5);
+}
+.table th {
+  border: 2px solid rgba(190, 11, 11, 0.1);
+  padding: 5px 10px;
+  text-align: left;
+  font-size: 16px;
 }
 
-
-.chart-calculator{  
-margin-right: 159px;
+.chart-calculator {
+  margin-right: 159px;
 }
-.chart-calculator h1{
+.chart-calculator h1 {
   color: rgb(255, 255, 255);
-
 }
-.chart-calculator p{
+.chart-calculator p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
 }
-.input-grid
-{
+.input-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
 }
-.common-input{
- border-radius: 8px; 
- height: 38px;
- width: 282px;
- font-size: 16px;
- font-weight: 400;
- padding: 12px 40px 12px 20px;
- background: rgba(255, 255, 255, 0.1);
+
+.common-input {
+  border-radius: 8px;
+  height: 38px;
+  width: 282px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px 40px 12px 20px;
+  background: rgba(255, 255, 255, 0.1);
 }
-#activity-factor{
- 
+.activity-grid {
+  width: 642px;
+  height: 48px;
+}
+#activity-factor {
+  margin-top: 12px;
+  width: 100%;
 }
 
-.calculator{
-  margin-top:34px ;
-  margin-left: 8px;
-  
+.calculator {
+  margin-top: 48px;
+  margin-left: 2px;
 }
 /*------------ Meet our team---------- */
-.team-parent{
-text-align: center;
-
+.team-parent {
+  text-align: center;
 }
 
-.team-headline h1{
+.team-headline h1 {
   color: rgb(255, 255, 255);
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 14px;
 }
-.team-headline p{
+.team-headline p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   font-weight: 400;
-
 }
-.team-image-grid-container{
-/* border: 1px solid red; */
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-width: 1100px;
-height: 710px ;
-margin:0 auto;
-margin-top: 58px;
-background: rgba(255, 255, 255, 0.1);
-border-radius: 18px;
-padding: 18px;
-/* gap: 20px; */
-
+.team-image-grid-container {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1100px;
+  height: 740px;
+  margin: 0 auto;
+  margin-top: 58px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  padding: 18px;
+  /* gap: 20px; */
 }
-.trainer{
+.trainer {
   /* border: 1px solid orange; */
   padding: 18px;
- 
 }
 
-.team-images
-{
- width: 100%;
- height: 100%;
- border-radius: 18px;
- 
-
+.team-images {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  opacity: 70%;
+  position: relative;
 }
-.text{
-  /* border: 5px solid red; */
+.text {
+  border: 5px solid red;
   text-align: left;
   margin-top: -100px;
   margin-left: 32px;
-  
-  
-
+  position: absolute;
 }
-.text h3{
+.text h3 {
   color: white;
   font-size: 16px;
   font-weight: 600px;
 }
-.text p{
+.text p {
   color: rgb(196, 194, 192);
   font-size: 14px;
 }
 
-.first-image .second-image .hird-image .four-image .five-image .six-image
-{
-  
+.first-image .second-image .hird-image .four-image .five-image .six-image {
 }
 
 /* ------------------Footer Start---------------- */
-.footer{
-  height:495px ;
+.footer {
+  height: 495px;
   width: 1440px;
   background: rgba(255, 255, 255, 0.1);
   margin: 0 auto;
   margin-top: 95px;
 }
-.footer-section{
+.footer-section {
   justify-content: center;
   margin-bottom: 80px;
-  
 }
-.fitness-footer{
+.fitness-footer {
   width: 445px;
 }
 
-.fitness-footer h1{
+.fitness-footer h1 {
   font-size: 70px;
 }
-.fitness-footer p{
-color: rgba(255,255,255,0.5);
-font-size: 14px;
+.fitness-footer p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
 }
-.get-started{
-width: 200px;
-margin-left: 152px;
+.get-started {
+  width: 200px;
+  margin-left: 152px;
 }
-.get-started h1{
-font-size: 32px;
-color: rgba(255,255,255);
+.get-started h1 {
+  font-size: 32px;
+  color: rgba(255, 255, 255);
 }
-.get-started p{
-  color: rgba(255,255,255,0.5);
+.get-started p {
+  color: rgba(255, 255, 255, 0.5);
 }
-.horizontal{
-width: 1060px;
-margin-bottom: 36px;
+.horizontal {
+  width: 1060px;
+  margin-bottom: 36px;
 }
-.rights-reserved{
+.rights-reserved {
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
- 
 }
-
-
-/* ------------------------------------------------ */
-
-
-/* .exercise1{
-width: 323px;
-height: 218px;
-margin-left: -2px;
-
+.none {
+  display: none;
 }
-.exercise2{
-  width: 539px;
-  height: 256px;
-  margin-left: -154px;
-  margin-bottom: -40px;
-}
-.exercise3{
-  width: 288px;
-  height: 214px;
-  margin-left:-46px;
-}
-.exercise4{
-  width: 435px;
-  height: 250px;
-  margin-left:-1px;
-}
-.exercise5{
-  width: 398px;
-  height: 250px;
-  margin-left: -60px ;
-}
-.exercise6{
-  width: 316px;
-  height: 250px;
-  margin-left: -75px;
-/*
-
-
-
-
- 
-
-
-
-
-
-

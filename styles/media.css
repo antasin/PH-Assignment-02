@@ -1,30 +1,357 @@
-/* responsive media query */
-@media screen and (max-width: 576px)
- {.nav , .list{
+/* ---------------------medium device media query ----------------------*/
+@media screen and (max-width: 992px) {
+  .nav-links {
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+  .navbar {
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .section-container {
     flex-direction: column;
-    gap: 12px;
-    
- }
- .home{
-
- }
-
+    width: 100%;
+  }
+  .body-shape-content {
+    margin: 30px;
+  }
+  .first-image-container {
+    border: 1px solid greenyellow;
+    margin-left: 87px;
+    margin-right: 214px;
+    position: relative;
+  }
+  #free-workout-videos {
+    left: 212px;
+    top: 83px;
+    position: absolute;
+  }
+  #video-tutorial-videos {
+    left: -27px;
+    top: 392px;
+    position: absolute;
+  }
 }
 
+/* ------------------------Mobile device media query ----------------------*/
+@media screen and (max-width: 576px) {
+  .btn-primary {
+    /* width: 50%; */
+    /* height: 100%; */
+  }
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .nav-links {
+    display: none;
+  }
+  .ham-burger-menu {
+    color: white;
+    display: block;
+    height: 22px;
+    width: 28px;
+  }
+  .section-container {
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+  }
 
-/* medium device media query */
-@media screen and (min-width:576px) and (max-width: 992px){
+  .body-shape-content {
+    /* margin: 30px; */
+    width: 100%;
+  }
+  .headline-content {
+    font-size: 36px;
+  }
+  .playwrite-be-vlg-uniquifier {
+    font-size: 40px;
+  }
 
+  .join-club-button,
+  .download-app {
+    width: 150px;
+    height: 38px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 2px;
+  }
+  .first-image-container {
+    border: 1px solid greenyellow;
+    position: relative;
+    margin-left: 24px;
+    width: 100%;
+  }
+  #first-image-block {
+    width: 355px;
+    height: 585px;
+  }
 
-    }
+  .first-image {
+    width: 100%;
+    height: 100%;
+  }
+  #free-workout-videos {
+    left: 190px;
+    top: 95px;
+    height: 65px;
+    width: 130px;
+    position: absolute;
+  }
+  #free-workout {
+    padding: 8px 20px;
+    line-height: 1px;
+    width: 100%;
+  }
 
+  #free-workout h1 {
+    font-size: 20px;
+    color: aliceblue;
+  }
 
+  #free-workout p {
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.65);
+  }
 
+  #video-tutorial-videos {
+    width: 125px;
+    height: 64px;
+    left: 0px;
+    top: 313px;
+    position: absolute;
+  }
+  #video-tutorial {
+    line-height: 10px;
+    text-align: right;
+    padding-right: 15px;
+  }
+  #video-tutorial h1 {
+    font-size: 20px;
+    color: aliceblue;
+    margin-right: 5px;
+  }
+  #video-tutorial p {
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+  }
+  .circle {
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  #circle {
+    position: absolute;
+    width: 25px;
+  }
+  /* -------Start main-------Change your habit-------- */
 
+  .habits-parent-content {
+    width: 100%;
+  }
+  .habits-parent-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .habits-parent-content p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .habits-image {
+    /* border: 1px solid red; */
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .change-habit-container h1 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .change-habit-container p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+  }
+  /* ------------run an extra main easily-----------*/
+  .extra-run-container {
+    /* border: 2px solid rgb(253, 36, 36); */
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 14px;
+  }
+  .run-padding {
+    padding: 10px;
+  }
+  .extra-run-container h1 {
+    font-size: 32px;
+    font-weight: 700;
+    width: 100%;
+    margin-left: 10px;
+  }
 
+  .extra-run-container p {
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 14px;
+    color: rgba(255, 255, 255, 0.5);
+  }
 
+  .join-now {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 5px;
+    margin-left: 8px;
+  }
+  .run {
+    padding: 10px;
+    /* border:5px solid red; */
+    border-radius: 16px;
+    margin-left: 4px;
+    width: auto;
+    height: auto;
+    /* margin-left: 12px; */
+  }
+  .run-image {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+  }
+  /* -------- Training and exercise -------- */
 
+  /* -------------BMI calculator Chart --------------*/
 
+  .bmi-calculator-content {
+    width: auto;
+    height: 100%;
+    padding: 20px;
+  }
+  .bmi-calculator-content h1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .calculator-chart-parent {
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 20px;
+  }
+  .table td {
+    border: 1px solid rgb(255, 183, 183);
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.986);
+  }
+  .table th {
+    border: 1px solid rgb(255, 183, 183);
+    padding: 5px 10px;
+    text-align: left;
+    font-size: 13px;
+  }
+  .calculator-chart {
+    margin-left: 0px;
+    width: auto;
+  }
+  .calculator-chart h1 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .chart-calculator {
+    margin-right: 0px;
+    width: ;
+  }
+  .input-grid {
+    width: 100%;
+    gap: 6px;
+  }
+  .common-input {
+    border-radius: 16px;
+    height: 30px;
+    width: 80px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 30px 8px 16px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .activity-grid {
+    width: 212px;
+    height: 48px;
+  }
+  #activity-factor {
+    margin-top: 12px;
+  }
 
+  /* --------------------Meet our team-------------------- */
+  .team-parent {
+    text-align: center;
+  }
 
-    
+  .team-headline h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  .team-headline p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .team-image-grid-container {
+    border: 1px solid red;
+    display: grid;
+
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 58px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 18px;
+    /* gap: 20px; */
+  }
+  .trainer {
+    /* border: 1px solid orange; */
+    padding: 18px;
+  }
+
+  .team-images {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    opacity: 70%;
+    position: relative;
+  }
+  .text {
+    border: 5px solid red;
+    text-align: left;
+    margin-top: -100px;
+    margin-left: 32px;
+    position: absolute;
+  }
+  .text h3 {
+    color: white;
+    font-size: 12px;
+    font-weight: 600px;
+    width: 100%;
+  }
+  .text p {
+    color: rgb(196, 194, 192);
+    font-size: 10px;
+  }
+}

@@ -5,33 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PH Assignment 02</title>
     <link rel="stylesheet" href="styles/index.css" />
-    <!-- <link rel="stylesheet" href="styles/media.css"> -->
+    <link rel="stylesheet" href="styles/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="inter-font , background-colour">
     <!-- nav start -->
     <header class="header-container">
-      <nav class="navbar , display-flex">
+      <nav class="none , navbar , display-flex">
         <h1 class="fitness"><i>Fitness</i></h1>
 
         <ul class="nav-links , display-flex">
           <li class="nav-item">
             <a href="" class="nav-link"><div class="home">Home</div></a>
           </li>
-
           <li class="nav-item"><a href="" class="nav-link">Service</a></li>
           <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
           <li class="nav-item"><a href="" class="nav-link">About</a></li>
         </ul>
+        <div class="ham-burger-menu">
+          <i class="fa-duotone fa-solid fa-bars"></i>
+        </div>
       </nav>
       <!-- nav end -->
 
       <!-- starting first part of section -->
 
-      <section class="section-container display-flex">
+      <section class="none section-container display-flex">
         <div class="body-shape-content">
           <h1 class="headline-content">
             Get body in <br />
-            <span class="shape">shape</span> & stay <br />
+            <span class="playwrite-be-vlg-uniquifier shape"><i>shape</i></span>
+            & stay <br />
             healthy
           </h1>
 
@@ -46,8 +56,7 @@
         </div>
         <!-- end first part of section -->
         <!-- header image part start..... -->
-        <div class="first-image-container">
-
+        <div class="non first-image-container">
           <div id="free-workout-videos">
             <div id="free-workout">
               <h1>500+</h1>
@@ -60,24 +69,23 @@
           </div>
 
           <div id="video-tutorial-videos">
-            <div class="circle"><img id="circle" src="images/circle.png" alt=""></div>
+            <div class="circle">
+              <img id="circle" src="images/circl-removebg-preview.png" alt="" />
+            </div>
             <div id="video-tutorial">
-              
-              <h1>350+</h1>                          
+              <h1>350+</h1>
               <p>Video Tutorial</p>
-              
             </div>
           </div>
-
         </div>
       </section>
       <!-- header image part end..... -->
     </header>
-    <!-- End of header part -->
 
     <!-- starting of main part -->
+    <!-- --------Change your habit----------- -->
     <main class="main-container">
-      <section class="habits-parent">
+      <section class="none habits-parent">
         <div class="habits-parent-content">
           <h1>Change Your Habits</h1>
           <p>
@@ -122,16 +130,16 @@
         </section>
       </section>
 
-      <!-- run an extra mail easily block -->
-      <section class="extra-run-container , display-flex">
-        <div>
+      <!------ run an extra main easily----- -->
+      <section class="none extra-run-container , display-flex">
+        <div class="run-padding">
           <h1>
             Run an Extra <br />
-            Mail Easily
+            Mile Easily
           </h1>
           <p>
             We belive fitness should be accessible to everyone,
-            everywhere,regardless of income or access to a gyn. With hundreds of
+            everywhere,regardless of income or access to a gym. With hundreds of
             professional workouts
           </p>
           <button class="btn-primary , join-now">Join Now</button>
@@ -142,7 +150,7 @@
         </div>
       </section>
       <!-- ------------ Training and exercise ----------- -->
-      <section class="training-exercise-parent">
+      <section class="none training-exercise-parent">
         <div class="training-exercise">
           <h1>Trainings and Exercises</h1>
           <p>
@@ -152,13 +160,14 @@
           </p>
         </div>
 
-        <div class="training-exercise-images-grid">
-          <div class="exercise1">
+        <div class="overlay training-exercise-images-grid">
+          <div class="overlay exercise1">
             <img
               class="exercise-common-img"
               src="images/exercise1.jpg"
               alt=""
             />
+
             <div class="training-text-1356">
               <p>lorem</p>
             </div>
@@ -223,7 +232,7 @@
 
       <!-- -----------------bmi calculator chart start ---------------------->
 
-      <div class="bmi-calculator-content">
+      <div class="none bmi-calculator-content">
         <h1>BMI Calculator</h1>
         <p>
           We believe fitness should be accessible to everyone, everywhere,
@@ -231,7 +240,7 @@
         </p>
       </div>
 
-      <section class="calculator-chart-parent , display-flex">
+      <section class="none calculator-chart-parent , display-flex">
         <div class="calculator-chart">
           <h1>BMI Calculator Chart</h1>
 
@@ -280,6 +289,9 @@
             />
             <input class="common-input" type="text" placeholder="Age" />
             <input class="common-input" type="text" placeholder="Sex" />
+          </div>
+
+          <div class="activity-grid">
             <input
               class="common-input"
               id="activity-factor"
@@ -294,7 +306,7 @@
 
       <!------------------- Meet our team------------------- -->
 
-      <section class="team-parent">
+      <section class="non team-parent">
         <div class="team-headline">
           <h1>Meet Our Team</h1>
           <p>
@@ -356,7 +368,7 @@
     </main>
     <!--------------------- footer start------------------->
 
-    <footer class="footer">
+    <footer class="none footer">
       <section class="footer-section display-flex">
         <div class="fitness-footer">
           <h1 class="fitness"><i>Fitness</i></h1>
