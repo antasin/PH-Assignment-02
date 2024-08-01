@@ -40,6 +40,7 @@
   font-weight: 600;
   line-height: 22px;
   color: rgb(255, 255, 255);
+  border: none;
 }
 .download-app {
   border: 1px solid rgb(255, 255, 255);
@@ -53,7 +54,7 @@
   margin: 0 auto;
   height: 0 auto;
   max-width: 1440px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .fitness {
   color: rgb(230, 83, 60);
@@ -78,7 +79,7 @@
   width: 0 auto;
 }
 .nav-links {
-  border: 1px solid rgb(117, 0, 0);
+  /* border: 1px solid rgb(117, 0, 0); */
   height: 30px;
   width: 460px;
   font-weight: 400;
@@ -107,7 +108,7 @@
 /* -------------------starting first part of section ----------------------*/
 
 .section-container {
-  border: 2px solid rgb(207, 8, 191);
+  /* border: 2px solid rgb(207, 8, 191); */
   justify-content: space-around;
   width: 1440px;
 }
@@ -118,7 +119,7 @@
 
 .body-shape-content {
   width: 550px;
-  border: 3px solid rgb(70, 83, 255);
+  /* border: 3px solid rgb(70, 83, 255); */
   font-size: 40px;
   text-align: left;
 }
@@ -132,7 +133,7 @@
 }
 
 .first-image-container {
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
   margin-left: 87px;
   margin-right: 214px;
   position: relative;
@@ -143,9 +144,9 @@
 }
 
 #first-image-block {
+  /* border: 1px solid red; */
   width: 400px;
   height: 650px;
-  border: 1px solid red;
 }
 
 #free-workout-videos {
@@ -236,7 +237,7 @@
   border-radius: 100%;
 }
 .habits-image {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   justify-content: space-around;
   width: 1060px;
   margin: 0 auto;
@@ -454,6 +455,7 @@
   font-weight: 400;
   padding: 12px 40px 12px 20px;
   background: rgba(255, 255, 255, 0.1);
+  border: none;
 }
 .activity-grid {
   width: 642px;
@@ -510,7 +512,7 @@
   position: relative;
 }
 .text {
-  border: 5px solid red;
+  /* border: 5px solid red; */
   text-align: left;
   margin-top: -100px;
   margin-left: 32px;
