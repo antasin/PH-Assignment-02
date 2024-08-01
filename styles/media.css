@@ -39,7 +39,7 @@
 /* ------------------------Mobile device media query ----------------------*/
 @media screen and (max-width: 576px) {
   .btn-primary {
-    border: none;
+    /* border: none; */
   }
   .navbar {
     flex-direction: row;
@@ -75,6 +75,7 @@
 
   .join-club-button,
   .download-app {
+    border: 1px solid white;
     width: 150px;
     height: 38px;
     font-size: 10px;
