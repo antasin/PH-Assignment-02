@@ -343,8 +343,6 @@
   width: 500px;
   height: 218px;
   margin-left: -155px;
-  
-  
 }
 
 .exercise3 {
@@ -419,17 +417,17 @@
 .table {
   /* background: rgb(207, 135, 2); */
   border-collapse: collapse;
-  color: white;
+  color: rgb(255, 249, 249);
 }
 .table td {
-  border: 2px solid rgba(190, 11, 11, 0.1);
+  border: 2px solid rgba(219, 219, 219, 0.1);
   padding: 5px 10px;
   font-size: 14px;
   font-weight: 200;
   color: rgba(255, 255, 255, 0.5);
 }
 .table th {
-  border: 2px solid rgba(190, 11, 11, 0.1);
+  border: 2px solid rgba(252, 243, 243, 0.1);
   padding: 5px 10px;
   text-align: left;
   font-size: 16px;
