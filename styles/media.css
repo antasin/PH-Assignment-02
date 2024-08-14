@@ -372,6 +372,12 @@
     color: rgba(255, 255, 255, 0.5);
     padding: 30px;
   }
+  .rights-reserved p {
+  font-size: 12px;
+  }
+  .get-started p {
+    font-size: 14px;
+  }
   .none {
     display: none;
   }

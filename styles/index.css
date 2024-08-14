@@ -79,7 +79,7 @@
   width: 0 auto;
 }
 .nav-links {
-  /* border: 1px solid rgb(117, 0, 0); */
+  border: 1px solid rgb(117, 0, 0);
   height: 30px;
   width: 460px;
   font-weight: 400;
