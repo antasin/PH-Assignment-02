@@ -307,7 +307,7 @@
 }
 /* --------------------Training and Exercise------------------ */
 .training-exercise-parent {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-top: 100px;
   margin: 0 auto;
   text-align: left;
@@ -342,13 +342,15 @@
   border: 1px solid blueviolet;
   width: 500px;
   height: 218px;
-  margin-left: -150px;
+  margin-left: -155px;
+  
+  
 }
 
 .exercise3 {
   width: 388px;
   height: 218px;
-  margin-left: -50px;
+  margin-left: -110px;
 }
 .exercise4 {
   width: 435px;
@@ -357,10 +359,12 @@
 .exercise5 {
   width: 408px;
   height: 219px;
+  margin-left: -104px;
 }
 .exercise6 {
   width: 376px;
-  height: 250px;
+  height: 220px;
+  margin-left: -100px;
 }
 .exercise-common-img {
   width: 100%;

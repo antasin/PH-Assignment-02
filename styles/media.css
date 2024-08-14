@@ -234,6 +234,9 @@
     margin-left: 0px;
   }
   /* -------- Training and exercise -------- */
+  .training-exercise-parent{
+    display: none;
+  }
 
   /* -------------BMI calculator Chart --------------*/
 
